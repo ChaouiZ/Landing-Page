@@ -1,2 +1,2 @@
 # Landing-Page
-lading page project
+A landing page using HTML and CSS.

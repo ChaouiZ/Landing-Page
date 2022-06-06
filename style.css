@@ -34,8 +34,8 @@ ul, a {
     background-color: #1f2937;
     align-items: center;
     height: 500px;
-    justify-content: space-between;
-    padding: 0 250px;
+    justify-content: center;
+    
 }
 
 .hero-header {
@@ -52,6 +52,7 @@ ul, a {
     flex-direction: column;
     width: 500px;
     height: 400px;
+    
 }
 
 button {
@@ -63,6 +64,15 @@ button {
     padding: 5px 25px;
     border-radius: 8px;
 }
+
+
+.herocontent {
+    display: flex;
+    gap: 400px;
+    
+    
+     
+} 
 
 .gallery {
     display: flex;
@@ -162,4 +172,13 @@ button {
     background-color: blue;
     border: solid white 2px;
     font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    color: white;
+    background-color: #1f2937;
 }
